@@ -1,6 +1,7 @@
 /* ---buttons--- */
 .default-button {
     font-size: 15px;
+    gap: 10px;
     min-height: 41px;
     padding: 3px 52px;
     letter-spacing: 1.5px;
@@ -48,6 +49,15 @@
 .default-button--sw {
     padding-left: 34px;
     padding-right: 34px;
+}
+
+.default-button .i4 {
+    font-size: 17px;
+    color: var(--theme__color4);
+    transition: 0.3s;
+}
+.default-button:hover .i4 {
+    color: #fff;
 }
 /* ---buttons---end */
 
