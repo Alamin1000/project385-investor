@@ -1,5 +1,6 @@
 /* ---buttons--- */
 .default-button {
+    font-size: 15px;
     min-height: 41px;
     padding: 3px 52px;
     letter-spacing: 1.5px;
