@@ -491,6 +491,7 @@ p {
   background: #fff;
   box-shadow: 3px 3px 6px 0px rgba(0, 93, 123, 0.13);
   transition: 0.3s;
+  display: block;
 }
 .x-card:hover {
   background: #005D7B;
@@ -513,6 +514,42 @@ p {
   transition: 0.3s;
 }
 .x-card:hover h3 {
+  color: #fff;
+}
+.xit-row {
+  gap: 75px;
+  display: flex;
+}
+.xit {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.xit__icon {
+  width: 46px;
+  display: flex;
+  align-items: center;
+}
+.xit__icon svg {
+  width: 100%;
+  height: auto;
+}
+.xit__icon svg [fill="#11809C"],
+.xit__icon svg [fill="white"] {
+  transition: 0.3s;
+}
+.x-card:hover .xit__icon svg [fill="#11809C"] {
+  fill: var(--theme__color4);
+}
+.x-card:hover .xit__icon svg [fill="white"] {
+  fill: #005D7B;
+}
+.xit__text {
+  color: #51616F;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.x-card:hover .xit__text {
   color: #fff;
 }
 

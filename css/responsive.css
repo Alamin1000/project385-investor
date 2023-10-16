@@ -67,6 +67,18 @@
         padding: 25px 30px;
         border-radius: 15px;
     }
+    .xit__icon {
+        width: 32px;
+    }
+    .xit {
+        gap: 10px;
+    }
+    .xit__text {
+        font-size: 16px;
+    }
+    .xit-row {
+        gap: 40px;
+    }
     .x-card__wrapper {
         gap: 16px;
     }
@@ -393,6 +405,16 @@
         padding: 15px 15px;
         border-radius: 12px;
     }
+    .xit__icon {
+        width: 26px;
+    }
+    .xit__text {
+        font-size: 14px;
+    }
+    .xit-row {
+        flex-direction: column;
+        gap: 10px;
+    }
     .ip-section {
         padding: 50px 0 30px;
     }
@@ -482,6 +504,7 @@
     .pagination .btn-part .button {
         padding-left: 10px;
         padding-right: 10px;
+        min-height: 30px;
     }
     .pagination ul {
         gap: 13px;
@@ -510,5 +533,10 @@
 
     .p-lg {
         font-size: 14.5px;
+    }
+
+    .pagination .btn-part .button {
+        font-size: 12px;
+        
     }
 }
