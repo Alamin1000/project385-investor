@@ -219,11 +219,99 @@
     .prf-section__inner {
         padding: 30px 0 50px;
     }
+
+
+    .gd-section {
+        padding: 45px 0 40px;
+    }
+    .gd-grp__item .text {
+        font-size: 16px;
+    }
+    .gd-grp__item .icon {
+        width: 28px;
+    }
+    .gd-grp__item {
+        gap: 8px;
+    }
+    .gd-grp__items-wrap {
+        gap: 10px;
+        margin-left: 65px;
+    }
+    .gd-grp {
+        margin-bottom: 45px;
+    }
+
+    .cc-section {
+        padding: 50px 0 60px;
+    }
+    .p-lg {
+        font-size: 18.7px;
+    }
+    .cc-section__title .h2 {
+        margin-bottom: 16px;
+    }
+    .cc-tbl-title__item .icon {
+        width: 25px;
+    }
+    .cc-tbl-title__item {
+        gap: 9px;
+    }
+    .cc-tbl-title {
+        margin-bottom: 15px;
+        gap: 30px;
+    }
+    .cc-tbl-title__item .txt {
+        font-size: 13px;;
+    }
+    .cc-table table td {
+        padding: 14px 12px;
+        font-size: 13px;
+    }
+    .cc-table table .ic-img {
+        width: 25px;
+    }
+
+
+    .sq-section__title {
+        padding: 20px 0;
+    }
+    .sq-content h3 {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .sq-section__inner {
+        padding: 45px 10.7% 45px;
+    }
+    .sq-table td {
+        padding: 13px 30px;
+        font-size: 13px;
+    }
+    .sq-content .h6 {
+        font-size: 13px;
+    }
+
+    .sc-section {
+        padding: 50px 0;
+    }
+    .sc-sec-title {
+        margin-bottom: 28px;
+    }
+    .idf3 {
+        margin-top: 20px !important;
+        font-size: 13px;
+    }
 }
 
 
 @media (max-width: 1199px) {
     .cp-section__inner {
+        padding: 0;
+    }
+
+    .sq-section__inner {
+        padding: 45px 0 45px;
+    }
+    .sc-section__inner {
         padding: 0;
     }
 }
@@ -271,6 +359,10 @@
     }
     .footer__logo {
         order: -5;
+    }
+
+    .p-lg {
+        font-size: 16px;
     }
 }
 
@@ -366,6 +458,16 @@
     }
 
 
+    .gd-grp__items-wrap {
+        margin-left: 20px;
+    } 
+
+    .gd-grp__item .text {
+        font-size: 14px;
+    }
+    .gd-grp__item .icon {
+        width: 22px;
+    }
 }
 
 
@@ -384,6 +486,12 @@
     .pagination ul {
         gap: 13px;
     }
+
+
+    .sq-table td {
+        padding: 12px 5px;
+        font-size: 12px;
+    }
 }
 
 
@@ -394,5 +502,13 @@
     }
     .cta__sr-content h4 {
         font-size: 15px;
+    }
+
+    .gd-grp__items-wrap {
+        margin-left: 10px;
+    }
+
+    .p-lg {
+        font-size: 14.5px;
     }
 }

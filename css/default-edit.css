@@ -140,6 +140,9 @@
 .bg-theme5 {
     background: var(--theme__color5) !important;
 }
+.bg-white {
+    background: #fff !important;
+}
 
 /* hover--bg */
 .hover-bg-theme1:hover {
