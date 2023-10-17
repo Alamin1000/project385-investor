@@ -937,9 +937,10 @@ p {
 .filter-inp .input.nice-select::after {
   height: 7px;
   width: 7px;
+  right: 20px;
   margin-top: -5px;
   border-width: 1px;
-  border-color: var(--theme__color3);
+  border-color: #11809C;
 }
 .filter-inp .input.nice-select .current {
   height: 100%;
@@ -1202,3 +1203,88 @@ p {
   font-weight: 400;
 }
 /* ---sc-section---end */
+
+
+/* ---ff-section--- */
+.ff-section {
+  padding: 50px 0;
+}
+.ff-section__inner {
+
+}
+.ff-sec-title {
+
+}
+.single-s-select {
+
+}
+.single-s-select .lbl-mn {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #51616F;
+}
+
+
+.ff-table {
+  margin-top: 60px;
+  overflow: auto;
+}
+.ff-table table {
+  min-width: 800px;
+}
+.ff-table td {
+  padding: 9px 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #51616F;
+  border-bottom: 1px solid rgba(17, 128, 156, 0.30);
+}
+.ff-table tbody td {
+
+}
+.ff-table td:first-child {
+  width: 12.5%;
+}
+.ff-table td:nth-child(2) {
+  width: 13%;
+}
+.ff-table td:nth-child(3) {
+  width: 50%;
+}
+.ff-table td:nth-child(4) {
+
+}
+.ff-table td:nth-child(5) {
+
+}
+.ff-table tbody td:nth-child(2) {
+  color: #11809C;
+  font-weight: 700;
+}
+.ff-table thead td {
+  padding-bottom: 20px;
+  color: #51616F;
+  font-weight: 600;
+}
+
+.ff-vw__items {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.ff-vw__item {
+  width: 31px;
+  display: block;
+}
+.ff-vw__item svg {
+  width: 100%;
+}
+.ff-vw__item svg [fill="#11809C"] {
+  transition: 0.3s;
+}
+.ff-vw__item:hover svg [fill="#11809C"] {
+  fill: var(--theme__color2);
+}
+
+/* ---ff-section---end */

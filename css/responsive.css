@@ -312,6 +312,20 @@
         margin-top: 20px !important;
         font-size: 13px;
     }
+
+
+    .ff-table td {
+        padding: 7px 5px;
+        font-size: 13px;
+    }
+    .ff-vw__item {
+        width: 24px;
+    }
+    .ff-vw__items {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
 }
 
 
