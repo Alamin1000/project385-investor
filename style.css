@@ -111,13 +111,25 @@ p:last-child{
 .header-in {
   background: #fff;
   box-shadow: 0px 3px 6px 0px rgba(112, 144, 176, 0.16);
+  position: relative;
+}
+.header-in::after {
+  content: '';
+  height: 200px;
+  width: 1px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background: red;
+  transform: translate(50%,0);
+  display: none;
 }
 .header-section__inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .header-left {
 
 }
@@ -129,6 +141,7 @@ p:last-child{
 .header-logo {
   width: 146px;
   margin-bottom: -63px;
+  margin-right: -151px;
   filter: drop-shadow(0px 5px 10px rgba(16, 110, 132, 0.10));
   border-radius: 50%;
   display: flex;
@@ -366,6 +379,7 @@ p:last-child{
   position: absolute;
 }
 .hero-section__inner {
+  padding: 100px 9%;
   min-height: 565px;
   display: flex;
   align-items: center;
@@ -397,7 +411,7 @@ p:last-child{
 
 }
 .bar-menu {
-
+  padding: 0 4.4%;
 }
 .bar-menu > ul {
   display: flex;
@@ -887,7 +901,7 @@ p {
   background: url('images/page-title-bg.png') no-repeat center center/cover;
 }
 .page-title__inner {
-  padding: 80px 0;
+  padding: 80px 7.45%;
   min-height: 400px;
   display: flex;
   align-items: center;
